@@ -2,6 +2,7 @@ node_modules/
 bower_components/
 .npm/
 .idea/
+public/vendor/
 
 npm-debug.*
 
