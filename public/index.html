@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <title>HIMS</title>
+
+    <meta name="author" content="DoDotDo Inc. (admin@dodotdo.com)" />
+    <meta name="description" content="HIMS: Hospitality Intelligent Management System" />
+
+    <link rel="stylesheet" type="text/css" href="./vendor/normalize-css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./vendor/roboto-fontface/css/roboto-fontface.css" />
+
+    <link rel="stylesheet" type="text/css" href="./login.css" />
+</head>
+<body>
+    <div id="wrap">
+        <a id="logo" class="c-Logo" href="/">
+            <img class="c-Logo__image" src="./assets/hims-logo__white@2x.png" />
+        </a>
+
+        <div id="container">
+
+            <div class="h-Centered__outer">
+                <div class="h-Centered__inner">
+
+                    <div class="l-MainContent">
+                        <span class="l-MainContent__title">Wear efficiency on your hotel.</span>
+                        <span class="l-MainContent__subTitle">Hotel Intelligent Management System</span>
+
+                        <div id="loginForm" class="c-LoginForm">
+                            <div class="c-LoginForm__inner">
+                                <div id="loginForm-errorMessage" class="c-LoginForm__errorMessage c-LoginForm__errorMessage--is-hidden">
+                                    Please check your ID or password.
+                                </div>
+
+                                <div class="c-LoginForm__input c-LoginForm__input--idInput">
+                                    <label>Login ID</label>
+                                    <input id="loginForm-idInput" type="text" maxlength="100" />
+                                </div>
+                                <div class="c-LoginForm__input c-LoginForm__input--passwordInput">
+                                    <label>Password</label>
+                                    <input id="loginForm-passwordInput" type="password" maxlength="4" />
+                                </div>
+                            </div>
+                            <button id="loginForm-submitBtn" class="c-LoginForm__submitBtn">login</button>
+                        </div>
+
+                        <a href="mailto:admin@dodotdo.com" class="l-MainContent__help">Need help?</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="l-FullBox">
+                <span class="c-Copyright">* Copyright © 2016 Dodotdo Inc. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./vendor/classie/classie.js"></script>
+    <script type="text/javascript" src="./login.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "hims-entry-web",
+  "homepage": "https://github.com/dodotdo/hims-entry-web",
+  "authors": [
+    "DoDotDo Inc. (admin@dodotdo.com)"
+  ],
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "./public/vendor/"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.1.1",
+    "roboto-fontface": "^0.4.5",
+    "classie": "^1.0.1"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+.npm/
+.idea/
+
+npm-debug.*
+
+.DS_Store*
+ethumbs.db
+Thumbs.db
