@@ -9,9 +9,9 @@ var loginBtn = null;
 
 function requestLogin(id, password, cb) {
     var request = new XMLHttpRequest();
-    request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     request.open('POST', apiUrl, true);
+    request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
