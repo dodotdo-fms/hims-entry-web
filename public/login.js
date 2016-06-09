@@ -24,7 +24,7 @@ function requestLogin(id, password, cb) {
     };
 
     request.send(JSON.stringify({
-        id: id,
+        userid: id,
         password: password
     }));
 }
