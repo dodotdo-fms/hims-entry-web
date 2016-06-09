@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     idInput.value = '';
                     passwordInput.value = '';
                 } else {
+                    Cookies.set('domain', '.hotelnhims.com');
                     location.replace(res.url + '/#/?token=' + res.token);
                 }
             });
