@@ -1,0 +1,12 @@
+{
+    "port": 8002,
+    "files": [
+        "./public/index.html",
+        "./public/login.css",
+        "./public/login.js"
+    ],
+    "server": {
+        "baseDir": "./public",
+        "index": "./public/index.html"
+    }
+}

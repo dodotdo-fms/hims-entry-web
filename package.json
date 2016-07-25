@@ -1,0 +1,23 @@
+{
+  "name": "hims-entry-web",
+  "version": "2.5.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/lite-server/bin/lite-server -c bs-config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodotdo/hims-entry-web.git"
+  },
+  "author": "dodotdo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodotdo/hims-entry-web/issues"
+  },
+  "homepage": "https://github.com/dodotdo/hims-entry-web#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
