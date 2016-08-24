@@ -57,7 +57,7 @@
                         passwordInput.value = '';
                     } else {
                         Cookies.set('domain', '.hotelnhims.com');
-                        location.replace(res.url + '/#/?token=' + res.token);
+                        location.replace(res.url + '/#?token=' + res.token);
                     }
                 });
         });
