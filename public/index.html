@@ -29,7 +29,6 @@
     <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" type="text/css" href="./vendor/normalize-css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/roboto-fontface/css/roboto-fontface.css" />
     <link rel="stylesheet" type="text/css" href="./login.css" />
 </head>
@@ -56,17 +55,17 @@
 
                                 <div class="c-LoginForm__input c-LoginForm__input--idInput">
                                     <label>Login ID</label>
-                                    <input id="loginForm-idInput" type="text" maxlength="100" />
+                                    <input id="loginForm-idInput" type="text" maxlength="30" />
                                 </div>
                                 <div class="c-LoginForm__input c-LoginForm__input--passwordInput">
                                     <label>Password</label>
-                                    <input id="loginForm-passwordInput" type="password" maxlength="4" />
+                                    <input id="loginForm-passwordInput" type="password" maxlength="14" />
                                 </div>
                             </div>
-                            <button id="loginForm-submitBtn" class="c-LoginForm__submitBtn">login</button>
+                            <button id="loginForm-submitBtn" class="c-LoginForm__submitBtn">Login</button>
                         </div>
 
-                        <a href="mailto:info@dodotdo.com" class="l-MainContent__help">Need help?</a>
+                        <a href="mailto:info@dodotdo.com" target="_blank" class="l-MainContent__help">Need help?</a>
                     </div>
 
                 </div>
@@ -81,8 +80,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="./vendor/classie/classie.js"></script>
-    <script type="text/javascript" src="./vendor/js-cookie/src/js.cookie.js"></script>
+    <script type="text/javascript" src="./classie.js"></script>
     <script type="text/javascript" src="./login.js"></script>
 </body>
 </html>
